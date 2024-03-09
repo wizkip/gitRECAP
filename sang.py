@@ -7,6 +7,7 @@ from itertools import permutations
 
 def sang(str):
 
+
     #create a LIST
     permlist = permutations(str)
 
@@ -22,4 +23,3 @@ if __name__ == "__main__":
     str = "SANG"
     sang(str)
 
-    
