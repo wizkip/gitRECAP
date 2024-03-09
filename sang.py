@@ -1,25 +1,37 @@
 #LETS GOOOOOOO
 
-
 from itertools import permutations
 
-#lets define a simple function
 
-def sang(str):
+def perms(str):
 
-
-    #create a LIST
     permlist = permutations(str)
 
-    #Iterate through this list
+
+    #Iterate through the LIST
 
     for perm in list(permlist):
 
         print(''.join(perm))
 
-
 if __name__ == "__main__":
 
-    str = "SANG"
-    sang(str)
+    str = "WAS"
+    perms(str)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
